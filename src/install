@@ -1,0 +1,18 @@
+npm i react-typed 
+npm i react-particles-js
+npm i react-router-dom
+npm install @material-ui/core
+npm install @material-ui/styles
+npm i @material-ui/icons
+npm install @material-ui/icons
+npm install semantic-ui-react semantic-ui-css
+npm i react-device-detect
+npm i emailjs-com
+npm install react-icons --save
+
+npm install react-bootstrap bootstrap
+
+
+
+
+npm uninstall 

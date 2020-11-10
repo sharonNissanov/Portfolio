@@ -1,13 +1,166 @@
 body {
-  margin: 0;
+  /* margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
+  background-color: #e8e8e8;
 }
-
+/* html{
+  height: 100%;
+} */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ /*
+ body {
+  background: url(shar3.jpg) no-repeat center center fixed; */
+  /* background: url(shar3.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
+
+@keyframes menueAnimation {
+  from {background-color:#EBD4D4; }
+  to {background-color:  #835858;}
+/*   
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;} */
+}
+
+@keyframes mymove {
+  from {top: 15px;}
+  to {left: 200px;}
+}
+
+.Links{
+  position:absolute;
+  top:10%;
+  left: 60%;
+  z-index: 1;
+
+}
+
+.Links:hover {
+  text-decoration: underline;
+  transition: width 0.3s;
+  
+}
+.About{
+  text-align: center;
+}
+
+.Portfolio{
+  text-align: center;
+}
+
+.navbar { 
+  background-color: #ebd4d4 !important; 
+  position: absolute;
+
+}
+
+.portfolio-image{
+  border-radius: 8px;
+  height: 80%;
+  top: 8px;
+}
+
+.space{
+  height: 8vh;
+}
+.project-info{
+  width: 90%;
+}
+.Resume{
+  text-align: center;
+  position: absolute;
+  top: 10%;
+}
+
+.contact-info-resume-big-screen .row{
+  text-align: center;
+  cursor: pointer;
+
+}
+.contact-info-resume-big-screen .column:hover{
+  color:#835858;
+  font-weight: bold;
+}
+.contact-info-resume-big-screen .download:hover{
+  color:#835858;
+  font-weight: 900;
+}
+
+/*big screens*/
+@media (min-width: 769px) {
+  .Portfolio .Card:hover {
+    z-index: 1;
+    border: 5px solid #835858;
+    transform: scale(1.1); 
+  }
+  .hebrew_small_screen_grid{
+    display: none;
+  }
+
+}
+
+/*small screens*/
+@media (max-width: 768px) {
+  .hebrew_big_screen_grid{
+    display: none;
+  }
+
+  .contact-info-resume-big-screen{
+    /* align-items: flex-start; */
+    display: none;
+  }
+  .Resume{
+    line-height: 1.4;
+  }
+  .contact-form{
+    width: 80%;
+  }
+}
+@media (min-width: 769px) {
+  .contact-info-resume-small-screen {
+    display: none;
+  }
+  .Resume{
+    line-height: 1.1;
+  }
+}
+
+
+
+
+/* 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #a03838;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: rgb(199, 185, 193);
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(112, 36, 78);
+
+} 
+  */
