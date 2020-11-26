@@ -1,7 +1,7 @@
 # **My Portfolio**
 ## Live preview: https://sharon-nissanov.com/
 
-This is my responsive website that i have deceloped using: \
+This is my responsive website that I have developed using: \
 ⚡️ ReactJS, EmailJS, ParticleJS, Semantic-UI and more. ⚡️ \
 My website allows you to get to know me better. \
 👍 You can read a bit about me and my skills. \
