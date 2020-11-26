@@ -4,6 +4,8 @@ import contactWebsite from "../pictures/contactWebsite.jpeg";
 import myPortfolio from "../pictures/myPortfolio.jpeg";
 import simulatingPicture from "../pictures/simulatingPicture.jpeg";
 import liveStreaming from "../pictures/liveStreaming.jpeg";
+import ticTacToe from "../pictures/ticTacToe.jpeg";
+
 
 const data = [
 {
@@ -19,17 +21,31 @@ const data = [
     hebrew_message:"whatsapp://send?text= היי שרון, אשמח לדבר איתך בנוגע לפרויקט 'מערכת ניהול לספירה יורדת'.  &phone=+972525496864"
 },
 {
-    hebrew_name:"אתר ליצירת קשר",
-    english_name:"Contact Website",
-    picture: contactWebsite, 
-    hebrew_descrition:"פיתוח האתר הרספונסיבי הראשון שלי, שמטרתו להציג את הכישורים שלי, להוריד את קורות החיים שלי וליצור איתי קשר. כל הנתונים מוצגים באנגלית ובעברית.",
-    english_description:"Developing my first responsive website, which meant to show my skills, download my resume and for contacting me. All the data presents both in English and Hebrew. ",
-    frontend:"ReactJS, Semantic-UI, CSS, HTML.",
+    hebrew_name:"דימוי תמונה",
+    english_name:"Simulate an image", 
+    picture: simulatingPicture,
+    link: "https://simulate-an-image.web.app",
+    frontend:"ReactJS, Material-UI, CSS, HTML.",
     backend:"Firebase.",
-    git:"https://github.com/sharonNissanov/My-Portfolio",
-    link:"https://porfolio-d170d.web.app/",
-    message:"whatsapp://send?text=Hi Sharon, I would like to contact you regarding your 'Contact Website' project.  &phone=+972525496864",
-    hebrew_message:"whatsapp://send?text= היי שרון, אשמח לדבר איתך בנוגע לפרויקט 'אתר ליצירת קשר'.  &phone=+972525496864"
+    hebrew_descrition:"  התבקשתי לדמות תמונה ספציפית באמצעות שימוש בספריית העיצוב- Material-UI.",
+    english_description:"Simulate a specific image by using Material-UI framework",
+    git:"https://github.com/sharonNissanov/Simulate-an-image-MaterialUI",
+    message:"whatsapp://send?text=Hi Sharon, I would like to contact you regarding your 'Simulate an image' project.  &phone=+972525496864",
+    hebrew_message:"whatsapp://send?text= היי שרון, אשמח לדבר איתך בנוגע לפרויקט 'דימוי תמונה'.  &phone=+972525496864"
+},
+{
+    hebrew_name:"Live Streaming -שידור חי",
+    english_name:"Live Streaming", 
+    picture: liveStreaming,
+    site:"https://www.live-rates.com/rates",
+    description1:"This app displays data from: " ,
+    description2:"and deals with the live streaming aspect and 3 API requests per hour or the hour limitation issue. The data displays in 2 different ways.",
+    description_hebrew1:"התבקשתי לפתח אפליקציה המציגה נתונים מהאתר: ",
+    description_hebrew2:"ועוסקת בהיבט השידור החי וב-3 בקשות API לשעה או בנושא הגבלת השעה. המידע מוצג בשתי דרכים שונות.",
+    frontend:"ReactJS, Semantic-UI, CSS, HTML.",
+    git:"https://github.com/sharonNissanov/LIVE-STREAMING",
+    message:"whatsapp://send?text=Hi Sharon, I would like to contact you regarding your 'Live Streaming' project.  &phone=+972525496864",
+    hebrew_message:"whatsapp://send?text= היי שרון, אשמח לדבר איתך בנוגע לפרויקט 'Live Streaming -שידור חי'.   &phone=+972525496864"
 },
 {
     hebrew_name:"תיק העבודות שלי",
@@ -39,6 +55,8 @@ const data = [
     picture: myPortfolio, 
     frontend:"ReactJS, Semantic-UI, Material-UI, CSS, HTML.",
     backend:"Firebase.",
+    link: "https://sharon-nissanov.com/",
+    git:"https://github.com/sharonNissanov/Portfolio",
     message:"whatsapp://send?text=Hi Sharon, I would like to contact you regarding your 'My Portfolio' project.  &phone=+972525496864",
     hebrew_message:"whatsapp://send?text= היי שרון, אשמח לדבר איתך בנוגע לפרויקט 'תיק העבודות שלי'.  &phone=+972525496864"
 },
@@ -56,30 +74,32 @@ const data = [
     hebrew_message:"whatsapp://send?text= היי שרון, אשמח לדבר איתך בנוגע לפרויקט 'קורות חיים דיגיטלים'.  &phone=+972525496864"
 },
 {
-    hebrew_name:"דימוי תמונה",
-    english_name:"Simulate an image", 
-    picture: simulatingPicture,
-    frontend:"ReactJS, Material-UI, CSS, HTML.",
-    hebrew_descrition:"  התבקשתי לדמות תמונה ספציפית באמצעות שימוש בספריית העיצוב- Material-UI.",
-    english_description:"Task from home assignment: I was asked to simulate a specific image by using Material-UI framework",
-    git:"https://github.com/sharonNissanov/Simulate-an-image-MaterialUI",
-    message:"whatsapp://send?text=Hi Sharon, I would like to contact you regarding your 'Simulate an image' project.  &phone=+972525496864",
-    hebrew_message:"whatsapp://send?text= היי שרון, אשמח לדבר איתך בנוגע לפרויקט 'דימוי תמונה'.  &phone=+972525496864"
-},
-{
-    hebrew_name:"Live Streaming -שידור חי",
-    english_name:"Live Streaming", 
-    picture: liveStreaming,
-    site:"https://www.live-rates.com/rates",
-    description1:"Task from home assignment- this app displays data from: " ,
-    description2:"and deals with the live streaming aspect and 3 API requests per hour or the hour limitation issue. The data displays in 2 different ways.",
-    description_hebrew1:"התבקשתי לפתח אפליקציה המציגה נתונים מהאתר: ",
-    description_hebrew2:"ועוסקת בהיבט השידור החי וב-3 בקשות API לשעה או בנושא הגבלת השעה. המידע מוצג בשתי דרכים שונות.",
+    hebrew_name:"אתר ליצירת קשר",
+    english_name:"Contact Website",
+    picture: contactWebsite, 
+    hebrew_descrition:"פיתוח האתר הרספונסיבי הראשון שלי, שמטרתו להציג את הכישורים שלי, להוריד את קורות החיים שלי וליצור איתי קשר. כל הנתונים מוצגים באנגלית ובעברית.",
+    english_description:"Developing my first responsive website, which meant to show my skills, download my resume and for contacting me. All the data presents both in English and Hebrew. ",
     frontend:"ReactJS, Semantic-UI, CSS, HTML.",
-    git:"https://github.com/sharonNissanov/LIVE-STREAMING",
-    message:"whatsapp://send?text=Hi Sharon, I would like to contact you regarding your 'Live Streaming' project.  &phone=+972525496864",
-    hebrew_message:"whatsapp://send?text= היי שרון, אשמח לדבר איתך בנוגע לפרויקט 'Live Streaming -שידור חי'.   &phone=+972525496864"
+    backend:"Firebase.",
+    git:"https://github.com/sharonNissanov/My-Portfolio",
+    link:"https://porfolio-d170d.web.app/",
+    message:"whatsapp://send?text=Hi Sharon, I would like to contact you regarding your 'Contact Website' project.  &phone=+972525496864",
+    hebrew_message:"whatsapp://send?text= היי שרון, אשמח לדבר איתך בנוגע לפרויקט 'אתר ליצירת קשר'.  &phone=+972525496864"
 },
+
+
+{
+    hebrew_name:"משחק איקס-עיגול",
+    english_name:"Tic-Tac-Toe game", 
+    picture:ticTacToe ,
+    frontend:"ReactJS, CSS, HTML.",
+    backend:"Firebase.",
+    git:"https://github.com/sharonNissanov/Tic-Tac-Toe-Game" ,
+    link:"https://tic-tac-toe-f0f98.web.app/",
+    message:"whatsapp://send?text=Hi Sharon, I would like to contact you regarding your Tic-Tac-Toe game.  &phone=+972525496864",
+    hebrew_message:"whatsapp://send?text= היי שרון, אשמח לדבר איתך בנוגע למשחק איקס-עיגול'.  &phone=+972525496864"
+},
+
 
 ]
   export default data;
